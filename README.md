@@ -11,7 +11,7 @@ SSH is enabled by default, so you can login directly after first boot.
 
 ### Notes
 
-- eth0 (wired) is failing to get routable on boot sometimes, if you have problems with this you can run **sudo netplan apply** to get it running. You can check with **networkctl**
+- eth0 (wired) is failing to get routable on boot sometimes, if you have problems with this you can run **sudo netplan apply** to get it running. You can check with **networkctl**.
 
 - To get wireless connection working on boot you must edit **/etc/netplan/01-rpi-3-network.yaml** present in *cloudimg-rootfs* partition in your sdcard and add your SSID and PASSWORD.
 
